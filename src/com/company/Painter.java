@@ -5,9 +5,9 @@ public class Painter {
 
         public static void main(String[] args) throws Exception
         {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Enter a string: ");
-            String type= sc.nextLine();
+            Scanner input = new Scanner(System.in);
+            System.out.println("Enter the type: ");
+            String type= input.nextLine();
 
             switch (type)
             {
